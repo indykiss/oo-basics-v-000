@@ -13,6 +13,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+  def condition
+    shoe.condition = "new"
+  end 
+  
 end
 
-    shoe.condition = "new"
